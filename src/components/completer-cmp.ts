@@ -202,7 +202,7 @@ export class CompleterCmp implements ControlValueAccessor, AfterViewChecked, Aft
         if (this.autofocus) {
             this._focus = true;
         }
-        
+
         if (!this.completer) {
             return;
         }
